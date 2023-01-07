@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* Banner Styles */
+
+.banner-bg {
+    background-image: url("/images/banner/banner3.png");
+    margin: 0%;
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 5px 2px #282a2d;
+}
+
+.banner-title {
+    text-align: right;
+    font-size: 70px;
+    color: white;
+    padding-top: 200px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+
+}
+
+.banner-description {
+    text-align: end;
+    font-size: 19px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+
+}
+
+.btn-primary {
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.btn {
+    text-align: right;
+    margin-top: 30px;
+    margin-left: 170px;
+    margin-right: 150px;
+}
+
+/* My Failure Styes */
+
+.my-failure-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.failure-header {
+    font-size: 46px;
+    color: black;
+    padding-top: 200px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.failure-description {
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    line-height: 20pt;
+}
+
+.my-failure-section ul {
+    list-style-type: none;
+}
+
+.items {
+    margin-left: 150px;
+    line-height: 25pt;
+}
+
+.img-failure {
+    margin-left: 150px;
+}
+
+/* Learn Something Styles */
+
+.learn-something-section {
+    display: flex;
+    margin-top: 150px;
+}
+
+.learn-something-head {
+    font-size: 46px;
+    color: black;
+    padding-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.learn-something-description {
+    font-size: 15px;
+    color: black;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    line-height: 20pt;
+}
+
+.learn-img {
+    width: 800px;
+    height: auto;
+    margin-left: 200px;
+}
+
+/* My Plans Styles */
+
+.my-plan-header {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.my-plan-container {
+    display: flex;
+    gap: 110px;
+    text-align: center;
+    justify-content: center;
+}
+
+.plan-title {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-description {
+    margin-top: 15px;
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Banner Mindset Styles */
+
+.mindset {
+    background-image: url(/images/watch.png), url(/images/gradient1.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    margin-left: 280px;
+    margin-top: 150px;
+    width: 1140px;
+    height: 300px;
+}
+
+.banner-mindset-head {
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 80px;
+    padding-top: 60px;
+    color: white;
+}
+
+.btn2 {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+/* Footer */
+
+.contact {
+    display: flex;
+    height: 500px;
+    background-color: black;
+    margin-top: 100px;
+    color: white;
+}
+
+.contact-item {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.contact-item-head {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.contact-item-des {
+    line-height: 20px;
+}
+
+.subscribe {
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.sub-head {
+    margin-bottom: 20px;
+}
+
+.btn3 {
+    margin-top: 20px;
+    padding-left: 2px;
+
+}
+
+input {
+    height: 64px;
+    width: 325px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+
+}
