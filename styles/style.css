@@ -7,7 +7,7 @@
 /* Banner Styles */
 
 .banner-bg {
-    background-image: url("/images/banner/banner3.png");
+    background-image: url("./images/banner/banner3.png");
     margin: 0%;
     height: 850px;
     background-position: center;
@@ -163,7 +163,7 @@
 /* Banner Mindset Styles */
 
 .mindset {
-    background-image: url(/images/watch.png), url(/images/gradient1.png);
+    background-image: url(./images/watch.png), url(./images/gradient1.png);
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     margin-left: 280px;
